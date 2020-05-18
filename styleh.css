@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+}
+
+body {
+    font-family: 'Charm', cursive;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+img{
+    width:100%;
+   height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+header {
+    height: 45rem;
+
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+    
+}
+
+header .h-img {
+    background-image: url(header.jpg);
+    height: 45rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.content {
+    padding: 10rem;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    word-spacing: .5rem;
+    letter-spacing: .2rem;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: darkslategray;
+    color: whitesmoke;
+    padding: 1.2rem 2.4rem;
+    margin: .5rem 0;
+    border: 1px solid gray;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: darkslategray;
+    transition: all .9s;
+}
+/*section-a*/
+#section-a{
+    background-color: whitesmoke;
+    color: darkslategray;
+    padding: 2.4rem 0;
+}
+/*section-b*/
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;
+}
+#section-b li{
+    background-color: whitesmoke;
+    color: darkslategray;
+    margin-bottom: 1.4rem;
+}
+.col-content{
+    padding: 1.5rem;
+}
+#section-c{
+      background-color: whitesmoke;
+    color: darkslategray;
+}
+#section-d .box{
+    padding: 5rem;
+}
+#section-d .box:first-child{
+    background-color: darkseagreen;
+    color: darkslategrey;
+    
+}
+footer{
+    padding: 4rem;
+    background-color: black;
+}
+
+@media screen and (min-width:700px) {
+    #section-b li{
+       
+        width:28%;
+        margin:1%;
+        display:inline-block;
+    }
+    .box{
+        width: 50%;
+        float: left;
+    }
+    html{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #344955;
+    opacity: 0.8;
+    border-bottom: solid #faab1a;
+
+}
+
+body {
+    background-color: #b4c1cc;
+
+}
+
+.jumbotrom {
+    background-color: #344955;
+    padding-top: 100px;
+}
+.footer{
+     background-color: #344955;
+    opacity: 0.8;
+    border-top: solid #faab1a;
+}

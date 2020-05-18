@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menü Yapımı</title>
+    <style>
+        * {
+            font-size: 20px;
+        }
+
+
+
+        ul li {
+
+            list-style-type: none;
+            display: inline-block;
+            float: left;
+            min-width: 200px;
+
+
+        }
+
+        .hidden {
+            display: none;
+        }
+
+
+        li a {
+            display: block;
+            min-width: 140px;
+            text-decoration: none;
+            background-color: darkslateblue;
+            color: bisque;
+            padding: 20px;
+            padding-left: 5px;
+            padding-right: 40px;
+            border: 1px solid black;
+            text-align: center;
+
+        }
+
+        ul li a:hover+.hidden,
+        .hidden:hover {
+            background-color: fuchsia;
+            display: block;
+
+
+        }
+
+        li:hover a {
+
+            background-color: darkseagreen;
+        }
+
+        li ul a {
+            padding: 7px;
+            padding-left: 5px;
+            padding-right: 10px;
+            text-align: left;
+            opacity: .7;
+        }
+
+        li a:hover {
+
+            background-color: darkseagreen;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li> <a href="#"> Anasayfa</a></li>
+        <li> <a href="#">Hakkımızda</a></li>
+        <li> <a href="#">Kurslar</a>
+            <ul class="hidden">
+                <li>
+                    <a href="#">Lorem ipsum.</a>
+                    <a href="#">Lorem.</a>
+                    <a href="#">Lorem ipsum dolor.</a>
+                </li>
+            </ul>
+        </li>
+        <li> <a href="#">Makale</a> </li>
+        <li> <a href="#"> İletşim</a> </li>
+    </ul>
+
+</body>
+
+</html>
